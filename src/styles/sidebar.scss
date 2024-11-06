@@ -48,10 +48,15 @@
             font-size: 1.25rem;
             color: var(--black);
             letter-spacing: -3%;
+
+            &.active {
+                color: var(--primary);
+            }
         }
 
         &:hover {
-            background-color: #e4f7fe;
+            // background-color: #e4f7fe;
+            background-color: #EFF5FF;
         }
     }
 }
