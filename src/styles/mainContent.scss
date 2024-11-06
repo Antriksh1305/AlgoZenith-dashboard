@@ -1,0 +1,21 @@
+.main-content {
+    margin: 10px calc(2rem + 30px) 0 320px;
+    height: calc(100vh - 100px);
+    // only for demonstration purposes (better functionality)
+    // height: min-content;
+    // min-height: calc(80vh - 100px);
+    width: 100%;
+    background: transparent;
+    overflow-y: auto;
+    transition: margin-left 0.3s ease;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+
+    &.expand {
+        margin-left: calc(2rem + 30px);
+    }  
+
+    &.shrink {
+        margin-left: 320px;
+    }
+}
